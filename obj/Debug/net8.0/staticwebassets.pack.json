@@ -1,0 +1,57 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\bin\\Debug\\net8.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\obj\\Debug\\net8.0\\compressed\\kdrfb4w6rm.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\css\\bootstrap\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\css\\bootstrap\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\css\\bootstrap\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\css\\main.css",
+      "PackagePath": "staticwebassets\\css\\main.css"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\favicon.png",
+      "PackagePath": "staticwebassets\\favicon.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\icon-192.png",
+      "PackagePath": "staticwebassets\\icon-192.png"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Moment1.2.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Moment1.2.props",
+      "PackagePath": "build\\Moment1.2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Moment1.2.props",
+      "PackagePath": "buildMultiTargeting\\Moment1.2.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Moment1.2.props",
+      "PackagePath": "buildTransitive\\Moment1.2.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

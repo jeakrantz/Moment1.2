@@ -1,0 +1,31 @@
+﻿@inherits LayoutComponentBase
+
+@{
+    @* Hämtar dagens datum som visas i Header *@
+    var date = DateTime.Now.Date;
+}
+
+<header>
+    <div class="d-flex flex-row justify-content-between">
+        <h1><a href="/">Moment1</a></h1>
+        <p>Dagens datum är: @date.ToString("yyyy/MM/dd")</p>
+    </div>
+</header>
+
+
+
+<div class="container no-padding">
+    <div class="row no-padding">
+        <NavMenu />
+        <main class="col-md-10" role="main">
+            @Body
+        </main>
+    </div>
+</div>
+
+<footer>
+    <div class="text-center">
+        <p>Av Jeanette Krantz - Kontakta mig via epost: <a
+                href="mailto:jekr2201@@student.miun.se">jekr2201@@student.miun.se</a></p>
+    </div>
+</footer>

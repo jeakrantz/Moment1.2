@@ -1,0 +1,51 @@
+@page "/json"
+@inject HttpClient Http
+
+<PageTitle>JSON</PageTitle>
+
+<h1>JSON</h1>
+
+@if (catfacts == null)
+{
+    <p>Laddar...</p>
+}
+else
+{
+
+    //Skriver ut katt-fakta i ett citatblock
+
+    int i = 1;
+    @foreach (var fact in catfacts)
+    {
+
+        <blockquote class="blockquote">
+            <h3>Cat-fact #@i</h3>
+            <p>
+                @fact.Text
+            </p>
+        </blockquote>
+        i++;
+    }
+}
+
+@code {
+    //Array för katt-fakta
+    private CatFact[]? catfacts;
+
+    //Http-anrop
+    protected override async Task OnInitializedAsync()
+    {
+        catfacts = await Http.GetFromJsonAsync<CatFact[]>("https://cat-fact.herokuapp.com/facts");
+    }
+
+    // Model för katt-fakta
+    public class CatFact
+    {
+        public string? Text { set; get; }
+    }
+}
+
+
+<p>Till detta används API <a href="https://cat-fact.herokuapp.com/facts" target="_blank">CatFact <i class="fa-solid fa-up-right-from-square"></i></a></p>
+<p><a href="https://alexwohlbruck.github.io/cat-facts/docs/" target="_blank">API Dokumentation <i class="fa-solid fa-up-right-from-square"></i></a></p>
+

@@ -1,0 +1,18 @@
+﻿@* Knappar för att öppna eller stänga menyn. Syns endast in mindre skärmar. *@
+<button id="open-menu-btn" onclick="openMenu()">Meny <i class="fa-solid fa-bars"></i></button>
+<button id="close-menu-btn" onclick="closeMenu()">Stäng <i class="fa-solid fa-xmark"></i></button>
+<div class="col-md-2 no-padding" id="menu-container">
+    <nav id="menu">
+        <ul class="nav flex-column text-center text-md-start">
+            <li class="nav-item">
+                <NavLink class="nav-link" href="/" Match="NavLinkMatch.All">Start</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="converter" Match="NavLinkMatch.All">Konvertering</NavLink>
+            </li>
+            <li class="nav-item">
+                <NavLink class="nav-link" href="json" Match="NavLinkMatch.All">JSON</NavLink>
+            </li>
+        </ul>
+    </nav>
+</div>
