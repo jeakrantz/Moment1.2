@@ -3,17 +3,43 @@
 
 <PageTitle>Konvertering</PageTitle>
 
-<h1>Konvertering</h1>
+<h2>Konvertering</h2>
 
 <p>En sida med konvertering</p>
 
-<ol>
-    <li>
-        Konvertera meter till fot (feet) - matas exempelvis 2 in för antal meter, ska resultatet visa 6,6 fot (avrunda
-        till två decimaler).
-    </li>
-    <li>
-        Konvertera km/h till miles/hour - matas exempelvis 100 in för km/h, ska resultatet visa 62 miles/hour (avrunda
-        till heltal).
-    </li>
-</ol>
+<h3>Meter till fot</h3>
+
+<label for="meter">Meter:</label>
+<input type="number" class="form-control" @bind="meter"/>
+<button class="btn btn-primary" @onclick="meterConverter">Konvertera</button>
+
+<p>Längden i fot: @fot ft</p>
+
+@code {
+    private double fot;
+    private double meter;
+    private void meterConverter()
+    {
+        double tempFot = meter * 3.2808;
+        fot = Math.Ceiling(tempFot * Math.Pow(10, Convert.ToDouble(1)))/Math.Pow(10, Convert.ToDouble(1));
+    }
+}
+
+<h3>Km/h till Miles/hour</h3>
+
+<label for="km">Km/h:</label>
+<input type="number" class="form-control" @bind="km"/>
+<button class="btn btn-primary" @onclick="kmConverter">Konvertera</button>
+
+<p>Hastigheten i Miles/hour: @miles mph</p>
+
+@code {
+    private double miles;
+    private double km;
+    private void kmConverter()
+    {
+        double tempMiles = km * 0.621371;
+        miles = Math.Round(tempMiles);
+    }
+}
+
