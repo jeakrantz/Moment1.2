@@ -5,14 +5,15 @@
     Datum: 2024-02-06
  */
 
-let e = document.getElementById("menu");
+let menu = document.getElementById("menu");
 let openMenuBtn = document.getElementById("open-menu-btn");
 let closeMenuBtn = document.getElementById("close-menu-btn");
 
 /* Funktion för att öppna menyn */
 function openMenu() {
-    if (e.style.display = "none"){
-        e.style.display = "inline";
+    console.log("Öppna");
+    if (menu.style.display = "none"){
+        menu.style.display = "inline";
         openMenuBtn.style.display = "none";
         closeMenuBtn.style.display = "inline";
     } 
@@ -20,8 +21,9 @@ function openMenu() {
 
 /* Funktion för att stänga menyn */
 function closeMenu() {
-    if (e.style.display = "inline"){
-        e.style.display = "none";
+    console.log("Stäng");
+    if (menu.style.display = "inline"){
+        menu.style.display = "none";
         openMenuBtn.style.display = "inline";
         closeMenuBtn.style.display = "none";
     }
@@ -29,12 +31,13 @@ function closeMenu() {
 
 /* Funktion för att gömma meny-knappar och visa menyn i större skärmar */
 function removeBtn(){
+    console.log("Stort1");
     if(window.innerWidth > 768){
         openMenuBtn.style.display = "none";
         closeMenuBtn.style.display = "none";
-        e.style.display = "inline"
+        menu.style.display = "inline"
     } else {
         openMenuBtn.style.display = "inline";
-        e.style.display = "none"
+        menu.style.display = "none"
     }
 }
