@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\index.html"
     },
     {
+      "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\js\\nav.js",
+      "PackagePath": "staticwebassets\\js\\nav.js"
+    },
+    {
       "Id": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },

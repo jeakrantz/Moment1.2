@@ -9,21 +9,28 @@
 
 <h3>Meter till fot</h3>
 
+@* Formulär för meter-konverteraren *@
+
 <label for="meter">Meter:</label>
 <input type="number" class="form-control" @bind="meter"/>
 <button class="btn btn-primary" @onclick="meterConverter">Konvertera</button>
 
 <p>Längden i fot: @fot ft</p>
 
+
 @code {
+    //Kod för uträkning av m till ft.
     private double fot;
     private double meter;
     private void meterConverter()
     {
         double tempFot = meter * 3.2808;
+        //Avrundar antalet ft till ett tal med en decimal. 
         fot = Math.Ceiling(tempFot * Math.Pow(10, Convert.ToDouble(1)))/Math.Pow(10, Convert.ToDouble(1));
     }
 }
+
+@* Formulär för kmh-konverteraren *@
 
 <h3>Km/h till Miles/hour</h3>
 
@@ -34,6 +41,7 @@
 <p>Hastigheten i Miles/hour: @miles mph</p>
 
 @code {
+    //Kod för uträkning 
     private double miles;
     private double km;
     private void kmConverter()
