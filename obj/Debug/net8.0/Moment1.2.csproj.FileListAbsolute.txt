@@ -1026,3 +1026,4 @@ C:\Users\USER\Desktop\Moment 1.2\Moment1.2\obj\Debug\net8.0\Moment1.2.dll
 C:\Users\USER\Desktop\Moment 1.2\Moment1.2\obj\Debug\net8.0\refint\Moment1.2.dll
 C:\Users\USER\Desktop\Moment 1.2\Moment1.2\obj\Debug\net8.0\Moment1.2.pdb
 C:\Users\USER\Desktop\Moment 1.2\Moment1.2\obj\Debug\net8.0\ref\Moment1.2.dll
+C:\Users\USER\Desktop\Moment 1.2\Moment1.2\obj\Debug\net8.0\Moment1.2.sourcelink.json
