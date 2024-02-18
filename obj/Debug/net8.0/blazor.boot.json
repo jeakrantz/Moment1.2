@@ -1,7 +1,7 @@
 {
   "mainAssemblyName": "Moment1.2",
   "resources": {
-    "hash": "sha256-nEjej+xwmWToDW3F8M/htKh5xDBrRziDepJO/eH8G+0=",
+    "hash": "sha256-A88VBvEkPKtv5TSImHr1E7DiS13HjM9Q6uOOwV338L8=",
     "jsModuleNative": {
       "dotnet.native.8.0.1.9ow7r0dapa.js": "sha256-SGOlISx+3G4kkvpC9Uq3qoPGsnjxGmW61QBev0lyI5U="
     },
@@ -208,10 +208,10 @@
       "mscorlib.wasm": "sha256-EpWTfh4m/hEcXRFYMCR9YeYHwdUJgcm1laBaxWfq2S4=",
       "netstandard.wasm": "sha256-2kH24/YfHmU3B4eYRyRmiwebYROM4+B9eDWKvMnUdP8=",
       "System.Private.CoreLib.wasm": "sha256-CsySKiP7HYY1pS8LTDE60EkqiX5oHb3WoEZHDNd1yK0=",
-      "Moment1.2.wasm": "sha256-YvMhcdz1GdskWp+T9ZQV+6CsSDXag+8Ev9CXAKRQdkc="
+      "Moment1.2.wasm": "sha256-z4UqqJJbyvUHAsazyfIOWRGDch+e6SJDd9ZrmoZARDo="
     },
     "pdb": {
-      "Moment1.2.pdb": "sha256-GP1mymcIJArv+O/qhKZrLCBHeo59JLDnlgFut1oGFsA="
+      "Moment1.2.pdb": "sha256-rtlFL17YFDNtS4wkJqCm+YBOGv4p/pwt2i+wrgU0iXw="
     }
   },
   "cacheBootResources": true,

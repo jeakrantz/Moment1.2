@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "jc6CRp6hdo0AMaPLecgWkUcm1Ca1jw31jkM9YYSg6ag=",
+  "Hash": "pl/fSG0aIkk2K5tnxB6SyxudDoCjqVL8lX0EGBKvjIw=",
   "Source": "Moment1.2",
   "BasePath": "/",
   "Mode": "Root",
@@ -7881,25 +7881,6 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\index.html"
-    },
-    {
-      "Identity": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\js\\nav.js",
-      "SourceId": "Moment1.2",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "js/nav.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\js\\nav.js"
     },
     {
       "Identity": "C:\\Users\\USER\\Desktop\\Moment 1.2\\Moment1.2\\wwwroot\\js\\site.js",

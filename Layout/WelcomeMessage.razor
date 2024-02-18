@@ -1,0 +1,37 @@
+@{
+    @* Dagens datum hämtas och lagras. *@
+    var dateNow = DateTime.Now;
+    string todayName = ""; 
+
+    @switch(dateNow.DayOfWeek)
+    {
+        case DayOfWeek.Monday:
+            todayName = "Måndag";
+            break;
+        case DayOfWeek.Tuesday:
+            todayName = "Tisdag";
+            break;
+        case DayOfWeek.Wednesday:
+            todayName = "Onsdag";
+            break;
+        case DayOfWeek.Thursday:
+            todayName = "Torsdag";
+            break;
+        case DayOfWeek.Friday:
+            todayName = "Fredag";
+            break;
+        case DayOfWeek.Saturday:
+            todayName = "Lördag";
+            break;
+        case DayOfWeek.Sunday:
+            todayName = "Söndag";
+            break;
+        
+    }
+
+}
+
+
+<blockquote class="blockquote">
+    Du har besökt sidan idag, en @todayName.
+</blockquote>
